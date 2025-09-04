@@ -1,23 +1,20 @@
+
 {
   "name": "proxy-pattern-credit-card",
   "version": "1.0.0",
-  "description": "Interactive TypeScript implementation of Proxy Pattern using Credit Card vs Cash analogy",
-  "main": "dist/main.js",
+  "description": "TypeScript Proxy Pattern implementation with error handling",
+  "main": "dist/mainApplication.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/main.js",
-    "dev": "ts-node main.ts",
+    "start": "node dist/mainApplication.js",
+    "dev": "ts-node src/mainApplication.ts",
     "clean": "rm -rf dist"
   },
   "keywords": [
     "design-patterns",
     "proxy-pattern",
-    "typescript",
-    "structural-patterns",
-    "interactive"
+    "typescript"
   ],
-  "author": "Your Name",
-  "license": "MIT",
   "dependencies": {
     "@types/node": "^20.0.0"
   },
